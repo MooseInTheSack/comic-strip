@@ -38,8 +38,15 @@ function App() {
         </Container>
       </div>
     </BrowserRouter>
+    <br/>
+    <br/>
+    <hr/>
+    <p>All artwork is property of Ryan Kirkpatrick</p>
+    <p>The source code of this website is available <a href="https://github.com/MooseInTheSack/comic-strip" target="_blank">here</a></p>
+    <br/>
+
     </div>
-  );
+  )
 }
 
 export default App;
