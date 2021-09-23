@@ -18,15 +18,13 @@ export default function Carousel() {
         <Card className={classes.root}>
             <CardContent>
                 <Typography variant="h2" component="h2">
-                    WHO ARE YOU PEOPLE?
+                    Contact
                 </Typography>
             </CardContent>
         </Card>
         <br />
-        <p>We are three brothers who have too much free time on our hands so we decided to make a web comic series.</p>
-        <p>Both Tyler and Ryan come up with the ideas, writing, and rough sketches.</p>
-        <p>Ryan, the only artistically talented of the bunch, creates the finished product.</p>
-        <p>And finally, Nathan posts the masterpiece across different mediums like Instagram and Facebook.</p>
+
+        <p>Email: kirkpatrickhelp@gmail.com</p>
     </div>
   );
 }

@@ -51,10 +51,10 @@ export default function SimpleCard() {
         <IconButton aria-label="instagram" className={classes.alignMiddle} href="https://www.instagram.com/alliseeisbeans/" target="_blank">
           <InstagramIcon fontSize="medium" />
         </IconButton>
-        <IconButton aria-label="twitter" className={classes.alignMiddle} href="https://google.com" target="_blank">
+        <IconButton aria-label="twitter" className={classes.alignMiddle} href="https://google.com" target="_blank" disabled>
           <TwitterIcon fontSize="medium" />
         </IconButton>
-        <IconButton aria-label="facebook" className={classes.alignMiddle} href="https://google.com" target="_blank">
+        <IconButton aria-label="facebook" className={classes.alignMiddle} href="https://google.com" target="_blank" disabled>
           <FacebookIcon fontSize="medium" />
         </IconButton>
       </CardActions>

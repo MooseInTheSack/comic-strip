@@ -13,8 +13,8 @@ function Carousel() {
         <Typography variant="h2" component="h2">
             Our Comics
         </Typography>
-        <br />
-        <ImageGallery items={images} />;
+        
+        <ImageGallery items={images} />
       
     </div>
   );

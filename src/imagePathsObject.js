@@ -1,35 +1,35 @@
-import comic_strip_1 from './components/common/images/comic_strip_1.png'
-import comic_strip_2 from './components/common/images/comic_strip_2.png'
-import comic_strip_3 from './components/common/images/comic_strip_3.png'
-import mascot from './components/common/images/mascot.png'
+import banana_comic from './components/common/images/banana_comic.jpg'
+import first_comic from './components/common/images/first_comic.jpg'
+import stars from './components/common/images/Stars.png'
+import redShirt from './components/common/images/Red_Shirt.png'
 
 
 export const imagesObjects = [
         { 
-            original: comic_strip_1,
-            thumbnail: comic_strip_1,
-            title: 'Title 1',
+            original: first_comic,
+            thumbnail: first_comic,
+            title: 'Experience',
             rows: 3,
             cols: 1,
         },
         { 
-            original: comic_strip_2,
-            thumbnail: comic_strip_2,
-            title: 'Title 2',
+            original: banana_comic,
+            thumbnail: banana_comic,
+            title: 'Banana',
             rows: 3,
             cols: 1,
         },
         { 
-            original: comic_strip_3,
-            thumbnail: comic_strip_3,
-            title: 'Title 3',
+            original: stars,
+            thumbnail: stars,
+            title: 'The Stars',
             rows: 3,
             cols: 1,
         },
         { 
-            original: mascot,
-            thumbnail: mascot,
-            title: 'Title 4',
+            original: redShirt,
+            thumbnail: redShirt,
+            title: 'ARRRGH',
             rows: 3,
             cols: 1,
         },

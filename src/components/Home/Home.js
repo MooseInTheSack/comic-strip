@@ -2,16 +2,16 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import TitleCard from '../TitleCard/TitleCard';
 
-import mascot from '../common/images/mascot.png'
+import bananaComic from '../common/images/banana_comic.jpg'
 
 const useStyles = makeStyles(theme => ({
   root: {
     overflow: 'hidden',
     backgroundColor: 'black',
   },
-  self_p: {
-    width: '50%',
-    height: '50%',
+  mainPhoto: {
+    width: '80%',
+    height: '80%',
   },
 }));
 
@@ -23,7 +23,7 @@ const Home = () => {
         <br />
         <TitleCard/>
         <br />
-        <img src={mascot} className={classes.self_p} alt="Ryan Kirkpatrick" />
+        <img src={bananaComic} className={classes.mainPhoto} alt="Ryan Kirkpatrick" />
       
     </div>
   );
