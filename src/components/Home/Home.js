@@ -1,5 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
+import TitleCard from '../TitleCard/TitleCard';
+
 import mascot from '../common/images/mascot.png'
 
 const useStyles = makeStyles(theme => ({
@@ -18,8 +20,9 @@ const Home = () => {
 
   return (
     <div className="Home">
-        <h2>Morbid Beans</h2>
-        <p>A comic page about... uh... well, beans...</p>
+        <br />
+        <TitleCard/>
+        <br />
         <img src={mascot} className={classes.self_p} alt="Ryan Kirkpatrick" />
       
     </div>

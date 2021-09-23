@@ -5,6 +5,7 @@ import Tab from "@material-ui/core/Tab";
 import Container from '@material-ui/core/Container';
 import { Switch, Route, Link, BrowserRouter } from "react-router-dom";
 import Carousel from './components/Carousel/Carousel'
+import About from './components/About/About'
 import Home from './components/Home/Home'
 
 function App() {
@@ -12,7 +13,6 @@ function App() {
     <div className="App">
 
       <BrowserRouter>
-      <div className="App">
       <Container maxWidth="md">
 
         <Route
@@ -22,11 +22,15 @@ function App() {
               <Tabs centered={true} value={location.pathname}>
                 <Tab value="/" label="Home" component={Link} to="/" />
                 <Tab value="/carousel" label="Carousel" component={Link} to="/carousel" />
+                <Tab value="/about" label="About" component={Link} to="/about" />
                 
               </Tabs>
               <Switch>
                 <Route path="/carousel">
                   <Carousel />
+                </Route>
+                <Route path="/about">
+                  <About />
                 </Route>
                 <Route path="/">
                   <Home />
@@ -36,7 +40,6 @@ function App() {
           )}
         />
         </Container>
-      </div>
     </BrowserRouter>
     <br/>
     <br/>
