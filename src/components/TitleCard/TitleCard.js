@@ -54,7 +54,7 @@ export default function SimpleCard() {
         <IconButton aria-label="twitter" className={classes.alignMiddle} href="https://google.com" target="_blank" disabled>
           <TwitterIcon fontSize="medium" />
         </IconButton>
-        <IconButton aria-label="facebook" className={classes.alignMiddle} href="https://google.com" target="_blank" disabled>
+        <IconButton aria-label="facebook" className={classes.alignMiddle} href="https://www.facebook.com/profile.php?id=100074053327356" target="_blank">
           <FacebookIcon fontSize="medium" />
         </IconButton>
       </CardActions>
