@@ -1,7 +1,5 @@
 import banana_comic from './components/common/images/banana_comic.jpg'
 import first_comic from './components/common/images/first_comic.jpg'
-import stars from './components/common/images/Stars.png'
-import redShirt from './components/common/images/Red_Shirt.png'
 
 import camping  from './components/common/images/camping.jpeg'
 import carrot from './components/common/images/carrot.jpeg'
@@ -68,5 +66,4 @@ export const imagesObjects = [
             rows: 3,
             cols: 1,
         },
-    ].
-    reverse()
+    ].reverse()

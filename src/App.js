@@ -45,7 +45,7 @@ function App() {
     <br/>
     <hr/>
     <p>All artwork is property of Ryan and Tyler Kirkpatrick</p>
-    <p>The source code of this website is available <a href="https://github.com/MooseInTheSack/comic-strip" target="_blank">here</a></p>
+    <p>The source code of this website is available <a href="https://github.com/MooseInTheSack/comic-strip" target="_blank" rel="noreferrer">here</a></p>
     <p>Site Built By Tyler Kirkpatrick.</p>
     <br/>
 
