@@ -1,4 +1,7 @@
 # All I See Is Beans
+
+[![Google Cloud Run Deploy](https://github.com/MooseInTheSack/comic-strip/actions/workflows/gcr-deploy.yml/badge.svg?branch=master)](https://github.com/MooseInTheSack/comic-strip/actions/workflows/gcr-deploy.yml)
+
 This is a github repo for our website [here](https://alliseeisbeans.com/)
 
 ## Notes
