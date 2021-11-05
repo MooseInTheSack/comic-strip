@@ -15,6 +15,8 @@ This is a github repo for our website [here](https://alliseeisbeans.com/)
 | Instagram | https://www.instagram.com/alliseeisbeans/ |
 | Facebook Page | https://www.facebook.com/profile.php?id=100074053327356 |
 | Reddit (In progress) | https://www.reddit.com/r/alliseeisbeans/ |
+| Patreon | https://www.patreon.com/alliseeisbeans |
+
 
 ## Commands to Update
 

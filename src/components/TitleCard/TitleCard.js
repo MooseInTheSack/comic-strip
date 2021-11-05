@@ -5,9 +5,9 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
-import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
+import RedditIcon from '@material-ui/icons/Reddit';
 
 const useStyles = makeStyles({
   root: {
@@ -51,12 +51,19 @@ export default function SimpleCard() {
         <IconButton aria-label="instagram" className={classes.alignMiddle} href="https://www.instagram.com/alliseeisbeans/" target="_blank">
           <InstagramIcon fontSize="medium" />
         </IconButton>
-        <IconButton aria-label="twitter" className={classes.alignMiddle} href="https://google.com" target="_blank" disabled>
-          <TwitterIcon fontSize="medium" />
+
+        <IconButton aria-label="twitter" className={classes.alignMiddle} href="https://www.patreon.com/alliseeisbeans" target="_blank">
+          <span class="iconify" data-icon="mdi:patreon"></span>
         </IconButton>
+
+        <IconButton aria-label="reddit" className={classes.alignMiddle} href="https://reddit.com/r/alliseeisbeans" target="_blank">
+          <RedditIcon fontSize="medium" />
+        </IconButton>
+
         <IconButton aria-label="facebook" className={classes.alignMiddle} href="https://www.facebook.com/profile.php?id=100074053327356" target="_blank">
           <FacebookIcon fontSize="medium" />
         </IconButton>
+
       </CardActions>
     </Card>
   );
