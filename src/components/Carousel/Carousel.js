@@ -13,8 +13,18 @@ function Carousel() {
         <Typography variant="h2" component="h2">
             Our Comics
         </Typography>
-        
-        <ImageGallery items={images} />
+
+        <ImageGallery 
+          items={images} 
+          onClick={(param)=> {
+            console.log("param: ", param?.target?.currentSrc)
+            if(param?.target?.currentSrc) {
+              window.open(param?.target?.currentSrc, "_blank")
+            } else {
+              console.error("Cannot open new tab of image... try right clicking the image and opening a new tab from there. But if you're looking at the console output, you probably already knew that tbh...")
+            }
+          }}
+        />
       
     </div>
   );
