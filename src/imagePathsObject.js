@@ -8,6 +8,9 @@ import pirates from './components/common/images/pirates.jpeg'
 import smile from './components/common/images/smile.jpeg'
 import venmo from './components/common/images/venmo.jpeg'
 
+import grapes from './components/common/images/grapes_perfect.png'
+import writersBlock from './components/common/images/writers_block.png'
+import desserts_from_dis from './components/common/images/desserts_from_dis.png'
 
 export const imagesObjects = [
         { 
@@ -63,6 +66,27 @@ export const imagesObjects = [
             original: carrot,
             thumbnail: carrot,
             title: 'Muzzle',
+            rows: 3,
+            cols: 1,
+        },
+        { 
+            original: grapes,
+            thumbnail: grapes,
+            title: 'Grapes of Wrath',
+            rows: 3,
+            cols: 1,
+        },
+        { 
+            original: desserts_from_dis,
+            thumbnail: desserts_from_dis,
+            title: 'Grandma\'s Cookies',
+            rows: 3,
+            cols: 1,
+        },
+        { 
+            original: writersBlock,
+            thumbnail: writersBlock,
+            title: 'Writers Block',
             rows: 3,
             cols: 1,
         },
