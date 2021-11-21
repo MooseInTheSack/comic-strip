@@ -21,7 +21,7 @@ function App() {
             <Fragment>
               <Tabs centered={true} value={location.pathname}>
                 <Tab value="/" label="Home" component={Link} to="/" />
-                <Tab value="/carousel" label="Carousel" component={Link} to="/carousel" />
+                <Tab value="/carousel" label="Comics" component={Link} to="/carousel" />
                 <Tab value="/about" label="About" component={Link} to="/about" />
                 
               </Tabs>

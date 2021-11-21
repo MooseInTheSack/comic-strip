@@ -16,6 +16,8 @@ import goblin from './components/common/images/goblin.jpg'
 import meth from './components/common/images/2_meth.png'
 import pools_closed from './components/common/images/pools_closed.png'
 
+import anvil from './components/common/images/anvil.png'
+
 export const imagesObjects = [
         { 
             original: first_comic,
@@ -42,6 +44,13 @@ export const imagesObjects = [
             original: pirates,
             thumbnail: pirates,
             title: 'Yarrrr',
+            rows: 3,
+            cols: 3,
+        },
+        { 
+            original: meth,
+            thumbnail: meth,
+            title: 'Meff',
             rows: 3,
             cols: 3,
         },
@@ -102,16 +111,16 @@ export const imagesObjects = [
             cols: 3,
         },
         { 
-            original: meth,
-            thumbnail: meth,
-            title: 'Writers Block',
+            original: pools_closed,
+            thumbnail: pools_closed,
+            title: 'Pool\'s Closed',
             rows: 3,
             cols: 3,
         },
         { 
-            original: pools_closed,
-            thumbnail: pools_closed,
-            title: 'Pool\'s Closed',
+            original: anvil,
+            thumbnail: anvil,
+            title: 'Anvil',
             rows: 3,
             cols: 3,
         },
