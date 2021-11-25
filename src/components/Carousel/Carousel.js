@@ -10,9 +10,6 @@ function Carousel() {
   return (
     <div className="Carousel">
         <br />
-        <Typography variant="h2" component="h2">
-            Our Comics
-        </Typography>
 
         <ImageGallery 
           items={images} 

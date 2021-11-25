@@ -3,6 +3,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import TitleCard from '../TitleCard/TitleCard';
 
 import bananaComic from '../common/images/banana_comic.jpg'
+import venmoComic from '../common/images/venmo.jpeg'
+
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -23,7 +25,7 @@ const Home = () => {
         <br />
         <TitleCard/>
         <br />
-        <img src={bananaComic} className={classes.mainPhoto} alt="Ryan Kirkpatrick" />
+        <img src={venmoComic} className={classes.mainPhoto} alt="Ryan Kirkpatrick" />
       
     </div>
   );

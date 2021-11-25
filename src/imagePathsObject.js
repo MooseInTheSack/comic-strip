@@ -18,6 +18,9 @@ import pools_closed from './components/common/images/pools_closed.png'
 
 import anvil from './components/common/images/anvil.png'
 
+import moth from './components/common/images/moth_with_signature.png'
+import guns from './components/common/images/guns.png'
+
 export const imagesObjects = [
         { 
             original: first_comic,
@@ -121,6 +124,20 @@ export const imagesObjects = [
             original: anvil,
             thumbnail: anvil,
             title: 'Anvil',
+            rows: 3,
+            cols: 3,
+        },
+        { 
+            original: moth,
+            thumbnail: moth,
+            title: 'Captain!',
+            rows: 3,
+            cols: 3,
+        },
+        { 
+            original: guns,
+            thumbnail: guns,
+            title: 'Police',
             rows: 3,
             cols: 3,
         },
