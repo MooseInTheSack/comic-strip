@@ -2,7 +2,6 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import TitleCard from '../TitleCard/TitleCard';
 
-import bananaComic from '../common/images/banana_comic.jpg'
 import venmoComic from '../common/images/venmo.jpeg'
 
 
