@@ -21,6 +21,8 @@ import anvil from './components/common/images/anvil.png'
 import moth from './components/common/images/moth_with_signature.png'
 import guns from './components/common/images/guns.png'
 
+import tv from './components/common/images/tv.png'
+
 export const imagesObjects = [
         { 
             original: first_comic,
@@ -138,6 +140,13 @@ export const imagesObjects = [
             original: guns,
             thumbnail: guns,
             title: 'Police',
+            rows: 3,
+            cols: 3,
+        },
+        { 
+            original: tv,
+            thumbnail: tv,
+            title: 'Violent TV Shows',
             rows: 3,
             cols: 3,
         },
