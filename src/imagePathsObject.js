@@ -155,6 +155,7 @@ export const imagesObjects = [
         },
         {
             thumbnail: watched,
+            original: watched,
             title: 'Quick! They\'re Onto Us!',
             rows: 3,
             cols: 3,
