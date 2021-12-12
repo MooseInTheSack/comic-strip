@@ -24,6 +24,7 @@ import guns from './components/common/images/guns.png'
 import tv from './components/common/images/tv.png'
 
 import avocado from './components/common/images/avocado.png'
+import watched from './components/common/images/watched.png'
 
 export const imagesObjects = [
         { 
@@ -152,11 +153,17 @@ export const imagesObjects = [
             rows: 3,
             cols: 3,
         },
+        {
+            thumbnail: watched,
+            title: 'Quick! They\'re Onto Us!',
+            rows: 3,
+            cols: 3,
+        },
         { 
             original: avocado,
             thumbnail: avocado,
             title: 'AvocaBro',
             rows: 3,
             cols: 3,
-        },
+        }
     ].reverse()
