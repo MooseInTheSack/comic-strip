@@ -23,6 +23,8 @@ import guns from './components/common/images/guns.png'
 
 import tv from './components/common/images/tv.png'
 
+import avocado from './components/common/images/avocado.png'
+
 export const imagesObjects = [
         { 
             original: first_comic,
@@ -147,6 +149,13 @@ export const imagesObjects = [
             original: tv,
             thumbnail: tv,
             title: 'Violent TV Shows',
+            rows: 3,
+            cols: 3,
+        },
+        { 
+            original: avocado,
+            thumbnail: avocado,
+            title: 'AvocaBro',
             rows: 3,
             cols: 3,
         },
