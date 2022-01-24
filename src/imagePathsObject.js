@@ -26,6 +26,10 @@ import tv from './components/common/images/tv.png'
 import avocado from './components/common/images/avocado.png'
 import watched from './components/common/images/watched.png'
 
+import new_year from './components/common/images/new_year.png'
+import bum from './components/common/images/bum.png'
+import printer_ink from './components/common/images/printer_ink.png'
+
 export const imagesObjects = [
         { 
             original: first_comic,
@@ -164,6 +168,27 @@ export const imagesObjects = [
             original: avocado,
             thumbnail: avocado,
             title: 'AvocaBro',
+            rows: 3,
+            cols: 3,
+        },
+        { 
+            original: new_year,
+            thumbnail: new_year,
+            title: 'New Year\'s',
+            rows: 3,
+            cols: 3,
+        },
+        { 
+            original: bum,
+            thumbnail: bum,
+            title: 'Do You Accept Venmo?',
+            rows: 3,
+            cols: 3,
+        },
+        { 
+            original: printer_ink,
+            thumbnail: printer_ink,
+            title: 'Modern Day Bank Robbery\'s',
             rows: 3,
             cols: 3,
         }
