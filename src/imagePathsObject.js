@@ -30,6 +30,8 @@ import new_year from './components/common/images/new_year.png'
 import bum from './components/common/images/bum.png'
 import printer_ink from './components/common/images/printer_ink.png'
 
+import nein from './components/common/images/nein.png'
+
 export const imagesObjects = [
         { 
             original: first_comic,
@@ -189,6 +191,13 @@ export const imagesObjects = [
             original: printer_ink,
             thumbnail: printer_ink,
             title: 'Modern Day Bank Robbery\'s',
+            rows: 3,
+            cols: 3,
+        },
+        { 
+            original: nein,
+            thumbnail: nein,
+            title: 'G*rmans...',
             rows: 3,
             cols: 3,
         }

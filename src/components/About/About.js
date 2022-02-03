@@ -26,10 +26,11 @@ export default function Carousel() {
         </Card>
         <br />
         <img className="RyanLogo" src={ryanWithAxe} alt="cartoon drawing of the artist holding an axe"/>
-        <p>We are three brothers who have too much free time on our hands so we decided to make a web comic series.</p>
+        <p>We are two brothers who have too much free time on our hands so we decided to make a web comic series.</p>
         <p>Both Tyler and Ryan come up with the ideas, writing, and rough sketches.</p>
-        <p>Ryan, the only artistically talented of the bunch, creates the finished comic. Sometimes Tyler makes them but the actual good ones are Ryan's.</p>
-        <p>And finally, Nathan posts the masterpiece across different mediums like Instagram, Facebook, and Reddit.</p>
+        <p>Ryan, the only artistically talented of the bunch, draws and colors the comics.</p>
+        <p>Then Tyler adds poorly drawn word bubbles and writes the dialog.</p>
+        <p>And finally, Tyler posts the masterpiece across different mediums like Instagram, Facebook, and Reddit.</p>
         
         <hr/>
         <p>If you would like to waste $3 then consider donating to our <a href="https://www.patreon.com/alliseeisbeans" target="_blank" rel="noreferrer">Patron!</a></p>
