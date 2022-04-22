@@ -32,6 +32,15 @@ import printer_ink from './components/common/images/printer_ink.png'
 
 import nein from './components/common/images/nein.png'
 
+import avocado_2 from './components/common/images/avocado_2.png'
+import batman_movie from './components/common/images/batman_movie.png'
+import boozin from './components/common/images/boozin.png'
+import daddy from './components/common/images/daddy.png'
+import made from './components/common/images/made.png'
+import bear from './components/common/images/bear.png'
+import territory from './components/common/images/territory.png'
+
+
 export const imagesObjects = [
         { 
             original: first_comic,
@@ -200,5 +209,55 @@ export const imagesObjects = [
             title: 'G*rmans...',
             rows: 3,
             cols: 3,
-        }
+        },
+        { 
+            original: avocado_2,
+            thumbnail: avocado_2,
+            title: 'Avocado',
+            rows: 3,
+            cols: 3,
+        },
+        { 
+            original: batman_movie,
+            thumbnail: batman_movie,
+            title: 'Na na na na na na na na',
+            rows: 3,
+            cols: 3,
+        },
+        { 
+            original: boozin,
+            thumbnail: boozin,
+            title: 'My apologies sir',
+            rows: 3,
+            cols: 3,
+        },
+        { 
+            original: daddy,
+            thumbnail: daddy,
+            title: '*Gulp*',
+            rows: 3,
+            cols: 3,
+        },
+        { 
+            original: made,
+            thumbnail: made,
+            title: 'Oh sheiße',
+            rows: 3,
+            cols: 3,
+        },
+        { 
+            original: bear,
+            thumbnail: bear,
+            title: 'Zoinks Scoob!',
+            rows: 3,
+            cols: 3,
+        },
+        { 
+            original: territory,
+            thumbnail: territory,
+            title: 'Ope',
+            rows: 3,
+            cols: 3,
+        },
+
     ].reverse()
