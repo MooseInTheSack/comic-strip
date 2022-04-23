@@ -2,7 +2,6 @@ import React, { Fragment }  from 'react';
 import './App.css';
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
-import Container from '@material-ui/core/Container';
 import { Switch, Route, Link, BrowserRouter } from "react-router-dom";
 import Carousel from './components/Carousel/Carousel'
 import About from './components/About/About'
@@ -11,10 +10,7 @@ import Home from './components/Home/Home'
 function App() {
   return (
     <div className="App">
-
       <BrowserRouter>
-      <Container maxWidth="md">
-
         <Route
           path="/"
           render={({ location }) => (
@@ -39,12 +35,11 @@ function App() {
             </Fragment>
           )}
         />
-        </Container>
     </BrowserRouter>
     <br/>
     <br/>
     <hr/>
-    <p>All artwork is property of Ryan and Tyler Kirkpatrick</p>
+    <p>All artwork is property of Ryan Kirkpatrick</p>
     <p>The source code of this website is available <a href="https://github.com/MooseInTheSack/comic-strip" target="_blank" rel="noreferrer">here</a></p>
     <p>Site Built By Tyler Kirkpatrick.</p>
     <br/>

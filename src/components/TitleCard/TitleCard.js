@@ -9,6 +9,8 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import RedditIcon from '@material-ui/icons/Reddit';
 
+import avatar from '../common/avatar_transparent.png'
+
 const useStyles = makeStyles({
   root: {
     minWidth: 275,
@@ -27,7 +29,11 @@ const useStyles = makeStyles({
   alignMiddle: {
     marginLeft: "auto",
     marginRight: "auto"
-  }
+  },
+  avatarIcon: {
+    maxWidth: '100px',
+    maxHeight: '100px',
+  },
 });
 
 export default function SimpleCard() {
@@ -38,6 +44,8 @@ export default function SimpleCard() {
     <Card className={classes.root}>
       <CardContent>
         
+        <img className={classes.avatarIcon} src={avatar} />
+
         <Typography variant="h2" component="h2">
           All I See is Beans
         </Typography>

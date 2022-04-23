@@ -33,7 +33,7 @@ const Home = () => {
 
   return (
     <div className="Home">
-        <br />
+
         <TitleCard/>
         <br />
         <img src={venmoComic} className={classes.mainPhoto} alt="Ryan Kirkpatrick" />
