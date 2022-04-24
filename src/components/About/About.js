@@ -3,12 +3,19 @@ import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
-import ryanWithAxe from '../common/images/015.jpg'
 import './About.css'
+
+import ryanWithAxe from '../common/images/015.jpg'
+import ryanBean from '../common/ryan_avatar.png'
+import tylerBean from '../common/tyler_avatar.png'
 
 const useStyles = makeStyles({
     root: {
         minWidth: 275,
+    },
+    avatarIcon: {
+        maxWidth: '250px',
+        maxHeight: '250px',
     },
 })
 
@@ -25,7 +32,8 @@ export default function Carousel() {
             </CardContent>
         </Card>
         <br />
-        <img className="RyanLogo" src={ryanWithAxe} alt="cartoon drawing of the artist holding an axe"/>
+        <img className={classes.avatarIcon} src={ryanBean} alt="cartoon drawing of the artist holding an axe"/>
+        <img className={classes.avatarIcon} src={tylerBean} alt="cartoon drawing of the artist holding an axe"/>
         <p>We are two brothers who have too much free time on our hands so we decided to make a web comic series.</p>
         <p>Both Tyler and Ryan come up with the ideas, writing, and rough sketches.</p>
         <p>Ryan, the only artistically talented of the bunch, draws and colors the comics.</p>
