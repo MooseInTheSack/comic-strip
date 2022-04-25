@@ -5,7 +5,6 @@ import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import './About.css'
 
-import ryanWithAxe from '../common/images/015.jpg'
 import ryanBean from '../common/ryan_avatar.png'
 import tylerBean from '../common/tyler_avatar.png'
 

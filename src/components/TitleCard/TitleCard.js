@@ -44,7 +44,7 @@ export default function SimpleCard() {
     <Card className={classes.root}>
       <CardContent>
         
-        <img className={classes.avatarIcon} src={avatar} />
+        <img alt="All I See Is Beans Logo" className={classes.avatarIcon} src={avatar} />
 
         <Typography variant="h2" component="h2">
           All I See is Beans
