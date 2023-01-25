@@ -22,7 +22,7 @@ jobs:
       - name: Setup Node.js (NPM)
         uses: actions/setup-node@master
         with:
-          node-version: '12.x'
+          node-version: "16.x"
 
       - name: Use cached node_modules
         uses: actions/cache@master
@@ -64,7 +64,7 @@ jobs:
       - name: Setup gcloud CLI
         uses: google-github-actions/setup-gcloud@main
         with:
-          version: '290.0.1'
+          version: "290.0.1"
           service_account_key: ${{ secrets.GCR_SA_KEY }}
           project_id: ${{ secrets.GCR_PROJECT }}
 
