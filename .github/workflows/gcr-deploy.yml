@@ -61,8 +61,13 @@ jobs:
           name: build
           path: .docker/build
 
+      - name: Install Python 2.7 and set env var
+      - run: |
+          sudo apt-get install python2.7
+          export CLOUDSDK_PYTHON="/usr/bin/python2"
+
       - name: Setup gcloud CLI
-        uses: google-github-actions/setup-gcloud@main
+        uses: google-github-actions/setup-gcloud@v1
         with:
           version: "290.0.1"
           service_account_key: ${{ secrets.GCR_SA_KEY }}
