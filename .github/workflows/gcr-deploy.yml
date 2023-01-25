@@ -61,10 +61,13 @@ jobs:
           name: build
           path: .docker/build
 
-      - name: Install Python 2.7 and set env var
-      - run: |
-          sudo apt-get install python2.7
-          export CLOUDSDK_PYTHON="/usr/bin/python2"
+      - name: Setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      - name: Export gcloud related env variable
+        run: export CLOUDSDK_PYTHON="/usr/bin/python3"
 
       - name: Setup gcloud CLI
         uses: google-github-actions/setup-gcloud@v1
