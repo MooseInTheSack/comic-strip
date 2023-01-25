@@ -40,6 +40,7 @@ import made from './components/common/images/made.png'
 import bear from './components/common/images/bear.png'
 import territory from './components/common/images/territory.png'
 
+import venmo_hobo from './components/common/images/venmo_hobo.jpeg'
 
 export const imagesObjects = [
         { 
@@ -259,5 +260,11 @@ export const imagesObjects = [
             rows: 3,
             cols: 3,
         },
+        { 
+            original: venmo_hobo,
+            thumbnail: venmo_hobo,
+            title: 'Ope',
+            rows: 3,
+            cols: 3,}
 
     ].reverse()

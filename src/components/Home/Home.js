@@ -5,9 +5,8 @@ import { styled } from '@mui/material/styles';
 
 import TitleCard from '../TitleCard/TitleCard';
 
-import venmoComic from '../common/images/venmo.jpeg'
+import venmoHoboComic from '../common/images/venmo_hobo.jpeg'
 import { Button, Typography } from '@material-ui/core';
-
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -15,8 +14,8 @@ const useStyles = makeStyles(theme => ({
     backgroundColor: 'black',
   },
   mainPhoto: {
-    width: '80%',
-    height: '80%',
+    width: '50%',
+    height: '50%',
   },
 }));
 
@@ -36,7 +35,7 @@ const Home = () => {
 
         <TitleCard/>
         <br />
-        <img src={venmoComic} className={classes.mainPhoto} alt="Ryan Kirkpatrick" />
+        <img src={venmoHoboComic} className={classes.mainPhoto} alt="Ryan Kirkpatrick" />
         <br />
         <br />
         <br />
