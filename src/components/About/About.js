@@ -37,12 +37,11 @@ export default function Carousel() {
         <p>Both Tyler and Ryan come up with the ideas, writing, and rough sketches.</p>
         <p>Ryan, the only artistically talented of the bunch, draws and colors the comic.</p>
         <p>And finally, Tyler posts the masterpiece across different mediums like Instagram, Facebook, and Reddit.</p>
-        
         <hr/>
         <p>If you have $3 then donate to our <a href="https://www.patreon.com/alliseeisbeans" target="_blank" rel="noreferrer">Patron.</a></p>
         <p>Now.</p>
         <p>We also have an <a href="https://instagram.com/alliseeisbeans" target="blank" rel="noreferrer">Instagram</a>, <a href="https://www.facebook.com/profile.php?id=100074053327356" target="blank" rel="noreferrer">Facebook Page</a>, and a <a href="https://reddit.com/r/alliseeisbeans" target="blank" rel="noreferrer">Subreddit!</a></p>
-
+        <br />
     </div>
   );
 }
