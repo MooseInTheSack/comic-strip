@@ -35,8 +35,7 @@ export default function Carousel() {
         <img className={classes.avatarIcon} src={tylerBean} alt="cartoon drawing of the artist holding an axe"/>
         <p>We are two brothers who have too much free time on our hands so we decided to make a web comic series.</p>
         <p>Both Tyler and Ryan come up with the ideas, writing, and rough sketches.</p>
-        <p>Ryan, the only artistically talented of the bunch, draws and colors the comics.</p>
-        <p>Then Tyler adds poorly drawn word bubbles and writes the dialog.</p>
+        <p>Ryan, the only artistically talented of the bunch, draws and colors the comic.</p>
         <p>And finally, Tyler posts the masterpiece across different mediums like Instagram, Facebook, and Reddit.</p>
         
         <hr/>
